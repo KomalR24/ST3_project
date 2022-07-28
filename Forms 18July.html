@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/html/">HTML</a> |
+            <a href="/css/">CSS</a> |
+            <a href="/js/">JavaScript</a> |
+            <a href="/python/">Python</a>
+        </nav>
+    </header>
+
+    <section>
+        <!-- get method is faster than any method in the forms -->
+        <h2> This is Html Forms Tutorial</h2>
+        <form action="backend.php">
+            <label for="name"> Name</label>
+            <div>
+                <input type="text" name="MyName" id="name" placeholder="Enter your name">
+            </div>
+            <label for="rollNo"> Roll Number </label>
+            <div>
+                <input type="text" name="MyRoll" id="rollNo">
+            </div>
+            <label for="email"> Email </label>
+            <div>
+                <input type="email" name=" Email" id="email">
+            </div>
+            <label for="date"> Date </label>
+            <div>
+                <input type="date" name="Mydate" id="date">
+            </div>
+            <label for="bonus"> Bonus: </label>
+            <div>
+                <input type="number" name="MyBonus" id="bonus">
+            </div>
+            <div>
+                <lable for="Age"> Age </lable>
+                <select name="MyAge" id="Age">
+                    <option value="15"> 15 </option>
+                    <option value="16"> 16 </option>
+                    <option value="17"> 17 </option>
+                    <option value="18" selected> 18 </option>
+                    <option value="19"> 19 </option>
+                    <option value="20"> 20 </option>
+                    <option value="21"> 21 </option>
+
+                </select>
+            </div>
+
+            <div>
+                Are you eligible? <input type="checkbox" name="MyEligibility" checked>
+            </div>
+            <label for="gender"> Select the Gender </label>
+            <div>
+                Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> Others <input
+                    type="radio" name="mygender" id="gender">
+            </div>
+            <div>
+                <lable for="course"> Select the course </lable>
+                Java<input type="checkbox" name="java" id="course"> Python <input type="checkbox" name="python"
+                    id="course"> C++ <input type="checkbox" name="cpp" id="course">
+            </div>
+            <div>
+                Write about yourself: <br><textarea name="MyText" cols="60" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="SUBMIT" value="Submit now">
+            </div>
+            <div>
+                <input type="RESET" value="Reset now">
+            </div>
+
+        </form>
+    </section>
+
+    <footer> Footer </footer>
+
+</body>
+
+</html>
