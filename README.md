@@ -1,1 +1,1 @@
-# Let-s-Learn-Git
+# Solar System - JS Project
